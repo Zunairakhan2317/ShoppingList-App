@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local JSON data 
+shopping_list.json
+unknown_items.json
