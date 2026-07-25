@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+# See https://nextjs.org/docs/app/building-your-application/deploying#production-checklist for more information
+/node_modules
+/.next
+/out
+/build
+.DS_Store
+*.pem
+
+# Local env files
+.env*.local
+.vercel
