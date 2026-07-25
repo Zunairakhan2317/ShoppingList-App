@@ -57,8 +57,10 @@
 
 1. **Main Dashboard & Configuration Panel:** *<img width="903" height="433" alt="image" src="https://github.com/user-attachments/assets/a2564709-70ac-4c09-8b8f-692c08154018" />
 *
-2. **Evaluation Summary & AI Optimization Tips:** *(Add screenshot showing total cost, remaining budget, and the Markdown AI tip box)*
-3. **Pandas Analytics & Saved Categorized Items:** *(Add screenshot showing spending per category metrics and grouped item lists)*
+2. **Evaluation Summary & AI Optimization Tips:** *<img width="590" height="426" alt="image" src="https://github.com/user-attachments/assets/ca6b3d63-3212-4c01-8df7-25d5af27e6e7" />
+*
+3. **Pandas Analytics & Saved Categorized Items:** *<img width="617" height="447" alt="image" src="https://github.com/user-attachments/assets/83f1585b-1f3c-42eb-aca4-4f2eee154a73" />
+*
 
 ---
 
@@ -72,8 +74,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Zunairakhan2317/SMARTSHOPPINGLIST.git
-cd SMARTSHOPPINGLIST
+git clone https://github.com/Zunairakhan2317/ShoppingList-App.git
+cd ShoppingList-App
 
 ```
 
