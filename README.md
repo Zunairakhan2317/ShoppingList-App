@@ -10,9 +10,9 @@
 
 ## 🔗 Live Deployed URL
 
-* **Frontend (Vercel):** [Insert your Vercel Live URL Here]
-* **Backend (Render):** [Insert your Render Backend URL Here]
-* **GitHub Repository:** [Insert your Public GitHub Repo Link Here]
+* **Frontend (Vercel):** https://shopping-app-three-omega.vercel.app/
+* **Backend (Render):** https://shoppinglist-app-xi2w.onrender.com/
+* **GitHub Repository:** https://github.com/Zunairakhan2317/ShoppingList-App
 
 ---
 
@@ -31,9 +31,9 @@
 ## 🤖 AI Feature & System Instructions
 
 * **What it does:** When a user submits their shopping list, the backend processes the data and sends a structured payload to **Google's Gemini AI model**. The model evaluates whether the user's spending fits within their target budget and generates personalized, actionable optimization advice (e.g., suggesting lower-cost alternatives or identifying non-essential items to cut).
-* **AI Model Used:** `gemini-1.5-flash` (or your chosen Gemini model).
+* **AI Model Used:** `gemini-flash-lite` .
 * **System Prompt / Instructions:**
-> *"You are an expert AI budgeting and shopping assistant. Review the provided user shopping list, total cost, items, and target budget. Provide a concise, highly actionable optimization tip or alternative strategy in Markdown format to help the user save money and stay within their financial limits."*
+> *"Suggest 3 alternatives for {name} around {price} PKR. For each, explain briefly why it is healthier (e.g., more vitamins, less sugar)."*
 
 
 
@@ -55,7 +55,8 @@
 
 ## 📸 Screenshots of the App in Action
 
-1. **Main Dashboard & Configuration Panel:** *(Add screenshot of the left configuration column and header)*
+1. **Main Dashboard & Configuration Panel:** *<img width="903" height="433" alt="image" src="https://github.com/user-attachments/assets/a2564709-70ac-4c09-8b8f-692c08154018" />
+*
 2. **Evaluation Summary & AI Optimization Tips:** *(Add screenshot showing total cost, remaining budget, and the Markdown AI tip box)*
 3. **Pandas Analytics & Saved Categorized Items:** *(Add screenshot showing spending per category metrics and grouped item lists)*
 
