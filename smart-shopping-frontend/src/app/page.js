@@ -95,7 +95,7 @@ export default function Home() {
               🛒 Smart Shopping & Budget AI
             </h1>
             <p className="text-xs sm:text-sm text-slate-400 font-medium mt-1">
-              Powered by FastAPI, Pandas & Gemini AI
+              Powered by FastAPI, Pandas, Nextjs & Gemini AI
             </p>
           </div>
           <motion.button 
