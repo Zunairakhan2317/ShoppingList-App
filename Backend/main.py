@@ -1,6 +1,5 @@
 import json
 import os
-from sqlalchemy import create_engine
 import requests
 import numpy as np
 import pandas as pd
@@ -11,23 +10,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-# Fetch variables
-USER = os.getenv("user")
-PASSWORD = os.getenv("password")
-HOST = os.getenv("host")
-PORT = os.getenv("port")
-DBNAME = os.getenv("dbname")
 
-DATABASE_URL = f"postgresql+psycopg2://{USER}:{PASSWORD}@{HOST}:{PORT}/{DBNAME}?sslmode=require"
 
-# Create the SQLAlchemy engine
-engine = create_engine(DATABASE_URL)
-
-try:
-    with engine.connect() as connection:
-        print("Connection successful!")
-except Exception as e:
-        print(f"Failed to connect: {e}")
 
 app = FastAPI()
 
@@ -245,11 +229,3 @@ def clear_saved_list():
     clear_file()
     return {"message": "Shopping list cleared successfully!"}
 
-@app.get("/db-check")
-def db_check():
-    try:
-        with engine.connect() as conn:
-            result = conn.execute("SELECT 1").scalar()
-            return {"status": "ok", "result": result}
-    except Exception as e:
-        return {"status": "error", "details": str(e)}
